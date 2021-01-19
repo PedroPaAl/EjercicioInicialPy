@@ -21,8 +21,17 @@ cadenas = ["hola","mundo"]
 numeros.append(cadenas)
 print(numeros)
 
+#ejercicio 6
+
+A = ["Jake","John","Eric"]
+B = ["John","Jill"]
+
+C = set(A)
+D = set(B)
+
+print(C.difference(D))
 
 #Ejercicio 7
 x = [1,2,3,4,5]
 [y**2 for y in x]
-print(x) 
+print(x)
